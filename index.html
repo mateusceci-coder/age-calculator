@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,400;1,800&display=swap"
+      rel="stylesheet"
+    />
+    <title>Age-Calculator</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="inputs">
+        <div class="input">
+          <label for="inputDay">DAY</label>
+          <input type="text" id="inputDay" placeholder="DD" />
+          <p class="error" id="inputDayError"></p>
+        </div>
+        <div class="input">
+          <label for="inputMonth">MONTH</label>
+          <input type="text" id="inputMonth" placeholder="MM" />
+          <p class="error" id="inputMonthError"></p>
+        </div>
+        <div class="input">
+          <label for="inputYear">YEAR</label>
+          <input type="text" id="inputYear" placeholder="YYYY" />
+          <p class="error" id="inputYearError"></p>
+        </div>
+      </div>
+      <div class="time">
+        <div class="image">
+          <button class="image-icon"></button>
+        </div>
+        <div class="years">
+          <span class="purple" id="years">--</span>
+          <span>years</span>
+        </div>
+        <div class="months">
+          <span class="purple" id="months">--</span>
+          <span>months</span>
+        </div>
+        <div class="days">
+          <span class="purple" id="days">--</span>
+          <span>days</span>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
